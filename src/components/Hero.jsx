@@ -10,6 +10,7 @@ import {
   faTwitter,
   faInstagram
 } from '@fortawesome/free-brands-svg-icons';
+//import '../styles/Header.css'
 
 const Hero = () => {
   const typingRef = useRef(null);
@@ -57,6 +58,7 @@ const Hero = () => {
   }, []);
 
   return (
+    
     <section className="hero" id="home">
       <div className="hero-content">
         <div className="text-content">
@@ -104,6 +106,7 @@ const Hero = () => {
         <a href="#" aria-label="Instagram"><FontAwesomeIcon icon={faInstagram} /></a>
       </div>
     </section>
+    
   );
 };
 

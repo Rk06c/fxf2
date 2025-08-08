@@ -1,5 +1,5 @@
 import React from 'react';
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import { BrowserRouter as Router, Routes, Route, BrowserRouter } from 'react-router-dom';
 
 import Header from './components/Header.jsx';
 import Hero from './components/Hero.jsx';
@@ -17,7 +17,8 @@ import DSASection from './components/DSASection.jsx';
 
 function App() {
   return (
-    <Router>
+    
+     <Router>
       <div>
         {/* <Header /> */}
         <main>
@@ -50,6 +51,8 @@ function App() {
       
       </div>
     </Router>
+        
+    
   );
 }
 
